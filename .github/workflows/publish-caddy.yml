@@ -29,11 +29,11 @@ jobs:
         with:
           build-args: RELEASE=${{ github.sha }}
           labels: |
-            maintainer=${{ github.repository_owner }}
-            org.opencontainers.image.source=https://github.com/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
+            maintainer=runeclausen
+            org.opencontainers.image.source=https://github.com/runeclausen/${{ env.IMAGE_NAME }}
             org.opencontainers.image.description=Commit message: ${{ github.event.head_commit.message }}
           context: ./caddy
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
-            ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ghcr.io/runeclausen/${{ env.IMAGE_NAME }}:latest
+            ghcr.io/runeclausen/${{ env.IMAGE_NAME }}:${{ github.sha }}
