@@ -2,3 +2,6 @@ cv.runeclausen.dk {
   reverse_proxy portfolio:8043
 }
 
+portolio.runeclausen.dk {
+  reverse_proxy portfolio:8043
+}
