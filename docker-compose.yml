@@ -11,7 +11,9 @@ services:
     restart: always
 
   # Websites
-
+  portfolio:
+    image: ghcr.io/runeclausen/portfolio:latest
+    restart: always
 
   # Services
 
