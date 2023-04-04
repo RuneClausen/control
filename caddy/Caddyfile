@@ -6,7 +6,3 @@ portolio.runeclausen.dk {
   reverse_proxy portfolio:8043
 }
 
-fremad.runeclausen.dk {
-  reverse_proxy fremad:8043
-}
-
