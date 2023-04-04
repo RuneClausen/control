@@ -19,6 +19,7 @@ services:
     image: ghcr.io/runeclausen/fremad:latest
     restart: always
 
+
   # Services
 
 
