@@ -14,6 +14,10 @@ services:
   portfolio:
     image: ghcr.io/runeclausen/portfolio:latest
     restart: always
+    
+  fremad:
+    image: ghcr.io/runeclausen/fremad:latest
+    restart: always
 
 
   # Services
