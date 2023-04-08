@@ -23,9 +23,7 @@ services:
     image: ghcr.io/runeclausen/fremadapi:latest
     restart: always
 
-
   # Services
-
 
   # Backing-services
 #  postgres:
