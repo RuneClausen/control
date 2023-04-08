@@ -1,0 +1,2 @@
+INSERT INTO athlete (athleteName, gender) VALUES ("Rune Clausen", "M");
+INSERT INTO athlete (athleteName, gender) VALUES ("Tommy Clark", "M");
