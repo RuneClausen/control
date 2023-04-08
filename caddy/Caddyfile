@@ -11,5 +11,5 @@ fremad.runeclausen.dk {
 }
 
 fremadapi.runeclausen.dk {
-    reverse_proxy fremadapi:8080
+    reverse_proxy fremadapi:8043
 }
