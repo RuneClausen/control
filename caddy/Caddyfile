@@ -9,7 +9,3 @@ portfolio.runeclausen.dk {
 fremad.runeclausen.dk {
   reverse_proxy fremad:8043
 }
-
-fremadapi.runeclausen.dk {
-    reverse_proxy fremadapi:8043
-}
