@@ -28,19 +28,19 @@ services:
 
 
   # Backing-services
-  postgres:
-    image: postgres:15.2-alpine
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    environment:
-      POSTGRES_DB: ${POSTGRES_DB:-database}
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-    restart: always
-    env_file:
-      - config/.env
+#  postgres:
+#    image: postgres:15.2-alpine
+#    volumes:
+#      - postgres_data:/var/lib/postgresql/data
+#    ports:
+#      - "5432:5432"
+#    environment:
+#      POSTGRES_DB: ${POSTGRES_DB:-database}
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: postgres
+#    restart: always
+#    env_file:
+#      - config/.env
 
 #  pg-admin:
 #    image: dpage/pgadmin4:6
